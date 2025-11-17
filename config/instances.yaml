@@ -167,7 +167,7 @@ virtualmachines:
         - systemctl reload sshd
 
   - name: "windows"
-    image: "base-windows-ad-2022.qcow2"
+    image: "base-windows-ad-2022"
     memory: "32G"
     cores: 4
     image_size: "60Gi"
