@@ -159,7 +159,7 @@ Description: User Password
 Answer variable name: user_password
 Answer Type: Password
 
-Question: Please define your OU path
+Question: Please define your OU pathpages
 Description: Account to be associated to the OU
 Answer variable name: ou_path
 Answer Type: Text
@@ -254,7 +254,7 @@ Password: learn_ansible
 
 Once we have saved this, we can navigate to `AAP`. We need to synchronize our project. 
 Navigate to *Automation Execution* > *Projects* and resync. Then let's create a new template with the following details:
-
+pages
 ----
 Name: Create Ansible Lab users
 Inventory: Servers
@@ -273,3 +273,8 @@ image::ad_user.png[ADUser,link=self,window=_blank]
 Confirm the details are correct.
 
 image::user.png[User,link=self,window=_blank]
+
+
+== Troubleshooting
+
+If you have encountered an issue or have noticed something not quite right, please link:https://github.com/ansible/workshops/issues/new?labels=ansibe-builder&title=Issue+with+Getting+started+with+Active-Directory-automation&assignees=amoyament[open an issue on GitHub].
