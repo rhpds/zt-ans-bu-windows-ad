@@ -118,3 +118,8 @@ image::report.png[Report,link=self,window=_blank,width=60%]
 You should view the accounts from your Active Directory. Congrats!
 
 This concludes this lab.
+
+
+== Troubleshooting
+
+If you have encountered an issue or have noticed something not quite right, please link:https://github.com/ansible/workshops/issues/new?labels=ansibe-builder&title=Issue+with+Getting+started+with+Active-Directory-automation&assignees=amoyament[open an issue on GitHub].
