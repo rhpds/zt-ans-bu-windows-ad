@@ -126,3 +126,9 @@ Once logged in you can navigate to *Server Manager* and confirm.
 image::serverman.png[SERVER MANAGER,link=self,window=_blank,width=60%]
 
 image::ad.png[ACTIVE DIRECTORY,link=self,window=_blank,width=60%]
+
+
+== Troubleshooting
+
+If you have encountered an issue or have noticed something not quite right, please link:https://github.com/ansible/workshops/issues/new?labels=ansibe-builder&title=Issue+with+Getting+started+with+Active-Directory-automation&assignees=amoyament[open an issue on GitHub].
+
