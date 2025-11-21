@@ -79,7 +79,7 @@ safe_password: Ansible123!
 Now that we have had a look at the playbook and the vault, let us configure this playbook as a template in AAP. Navigate to the AAP tab and login.
 
 ----
-Username: Admin
+Username: admin
 Password: ansible123!
 ----
 
