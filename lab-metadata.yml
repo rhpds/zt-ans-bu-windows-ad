@@ -1,0 +1,24 @@
+lab:
+  # Core lab information
+  name: "Ansible Automation Platform and Windows Active Directory"
+  shortname: "zt-ans-bu-windows-ad"
+  category: "Ansible, Windows"
+  tags: "Ansible, Windows, Active Directory"
+  maintainer: "Aubrey Trotter, atrotter@redhat.com"
+  
+  # Detailed description for description.adoc generation
+  description:
+    summary: "Learn how to automate Microsoft Active Directory administration with Red Hat Ansible Automation Platform using the automation controller web UI"
+    
+    goal: "Learn to automate Active Directory administration with Ansible Automation Platform"
+    concepts:
+      - "Configre a Widonws server to a domain controller"
+      - "Automate user and credential management using an encrypted vault"
+      - "Configure AAP including job templates, surveys, tags, inventories, and credentials"
+      - "Integrate PowerShell with Ansible to gather directory data and generate a browsable HTML report"
+      - "Apply roles and Jinja templates to standardize configurations at scale"
+    use_case: "Windows administrators who are automating their Active Directory, including user tracking and managemenet using Ansible Automation Platform"
+  
+  # Git references for deployment
+  git_ref:
+    production: "v0.0.1"
