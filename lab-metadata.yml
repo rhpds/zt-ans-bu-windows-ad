@@ -1,0 +1,24 @@
+lab:
+  name: "Ansible Automation Platform and Windows Active Directory"
+  shortname: "zt-ans-bu-windows-ad"
+  category: "Ansible, Windows"
+  tags: "Ansible, Windows, Active Directory"
+  maintainer: "Aubrey Trotter, atrotter@redhat.com"
+
+  description:
+    summary: "Automate the lifecycle of Microsoft Active Directory environments using Red Hat Ansible Automation Platform."
+    
+    goal: "Master the orchestration of Active Directory services, from domain promotion to user lifecycle management, using Ansible."
+    
+    concepts:
+      - "Promote a Windows Server to a Domain Controller and model Organizational Units"
+      - "Securely manage user creation and credentials using Ansible Vault"
+      - "Configure Controller assets including Gitea-backed projects, inventories, and survey-driven job templates"
+      - "Integrate PowerShell to audit directory data and generate dynamic HTML reports"
+      - "Standardize AD configurations at scale using reusable roles and Jinja2 templates"
+      
+    use_case: "Windows administrators looking to replace manual Active Directory maintenance with secure, standardized, and auditable automation workflows."
+  
+  git_ref:
+    production: "v0.0.1"
+    development: "main"
